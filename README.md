@@ -6,7 +6,8 @@ The output of the Ohmpilot is controlled to make maximum use of excess power fro
 The Ohmpilot uses address 40 (28 in Hexadecimal on Modbus 0 of the GEN24 inverter. Using the Ohmpilot the user gets full information of
 the power delivered to the storage tank and the temperature of the water as a function of time using Fronius Solarweb portal.
 
-The Modbus_logfiles directory holds two sessions one of which is a full startup of the Ohmpilot when the GEN24 is running. Here I have added some comments in the logfile. Both files are plain textfiles, show can be browsed easily. The second file logs a period in which the Ohmpilot is at work by heating the water to 55 degC (set Max. temperature). And it can be seen that power and temperature are varying.
+The Modbus_logfiles directory holds two sessions one of which is a full startup of the Ohmpilot when the GEN24 is running. Here I have added some comments in the logfile. Both files are plain textfiles, and can thus be browsed easily. Note that occasionally a x00 byte appears after a valid CRC double byte.  
+The second file logs a period in which the Ohmpilot is at work by heating the water to 55 degC (set Max. temperature). And it can be seen that power and temperature are varying.
 
 Brief Register list:
 (Note: listed are the decimal base holding register address + 1. So for register 40800 one will find as x9F x5F in the log files):
