@@ -9,7 +9,7 @@ the power delivered to the storage tank and the temperature of the water as a fu
 The Modbus_logfiles directory holds two sessions one of which is a full startup of the Ohmpilot when the GEN24 is running. Here I have added some comments in the logfile. Both files are plain textfiles, show can be browsed easily. The second file logs a period in which the Ohmpilot is at work by heating the water to 55 degC (set Max. temperature). And it can be seen that power and temperature are varying.
 
 Brief Register list:
-(Note: listed are the decimal base holding register address + 1. So for register 40800 one will find x9F5F in the log files):
+(Note: listed are the decimal base holding register address + 1. So for register 40800 one will find as x9F x5F in the log files):
 
 40004   Holding registers with Ohmpilot information (Manufacturer, DeviceName, Serialno. etc)  
 40452   Holding registers with string data (FRO:xxxxxxxx) - xxxxxxxx is pairing number  
