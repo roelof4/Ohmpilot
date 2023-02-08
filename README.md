@@ -1,4 +1,4 @@
-# Ohmpilot communication
+# Fronius Ohmpilot communication
 
 Extracts from Modbus communication between a Fronius GEN25 inverter and a Fronius Ohmpilot water storage heater controller.
 The output of the Ohmpilot is controlled to make maximum use of excess power from the solar array to heat up water.
